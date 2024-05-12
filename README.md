@@ -20,8 +20,8 @@ I am using Javascript, Html, and Css. I have also pulled from exchangerate-api.c
 # Useful Websites
 
 
-- [Web Site Name](https://www.w3schools.com/js/default.asp)
-- [Web Site Name](https://www.codecademy.com/catalog/language/javascript)
+- [W3 School](https://www.w3schools.com/js/default.asp)
+- [CodeCademy](https://www.codecademy.com/catalog/language/javascript)
 
 # Future Work
 
