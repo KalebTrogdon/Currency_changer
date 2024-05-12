@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Currency Converter</h1>
+  
+  <form>
+    <label for="amount">Enter amount to convert:</label>
+    <input type="number" id="amount" placeholder="Amount">
+
+    <label for="fromCurrency">From currency:</label>
+    <select id="fromCurrency">
+      <option value="USD">USD - United States Dollar</option>
+      <option value="EUR">EUR - Euro</option>
+      <option value="GBP">GBP - British Pound Sterling</option>
+      <option value="JPY">JPY - Japanese Yen</option>
+      <!-- Add options for other common currencies -->
+      <option value="AUD">AUD - Australian Dollar</option>
+      <option value="CAD">CAD - Canadian Dollar</option>
+      <!-- Add options for other common currencies -->
+    </select>
+
+    <label for="toCurrency">To currency:</label>
+    <select id="toCurrency">
+      <option value="USD">USD - United States Dollar</option>
+      <option value="EUR">EUR - Euro</option>
+      <option value="GBP">GBP - British Pound Sterling</option>
+      <option value="JPY">JPY - Japanese Yen</option>
+      <!-- Add options for other common currencies -->
+      <option value="AUD">AUD - Australian Dollar</option>
+      <option value="CAD">CAD - Canadian Dollar</option>
+      <!-- Add options for other common currencies -->
+    </select>
+
+    <button type="button" onclick="currencyConverter()">Convert</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="currency_converter.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
